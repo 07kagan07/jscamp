@@ -18,3 +18,5 @@ function kredits() {
     console.log(krediler[i]);
   }
 }
+
+//kağan Coşkun
