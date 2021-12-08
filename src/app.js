@@ -11,12 +11,9 @@ const euroDun = 11.2;
 //euroDun = 12;
 console.log(euroDun);
 
-let krediler = ["Konut Kredisi", "Araç Kredisi", "İhtiyaç Kredisi"];
+let yemekler = ["İmam Ayıldı", "Köfte", "Mantı", "Mercimek", "Spagitti"];
 
-function kredits() {
-  for (var i = 0; i < krediler.length; i++) {
-    console.log(krediler[i]);
-  }
+function getir(element) {
+  var element = document.getElementById("get");
+  element.innerHTML = yemekler[Math.floor(Math.random() * yemekler.length)];
 }
-
-//kağan
