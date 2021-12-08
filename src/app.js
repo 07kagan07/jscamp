@@ -19,4 +19,4 @@ function kredits() {
   }
 }
 
-//kağan Coşkun
+//kağan
